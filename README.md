@@ -1,5 +1,7 @@
 ## Form Component
 
+Component available at : https://david-form-component.netlify.app/
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
