@@ -1,0 +1,158 @@
+.FormWrapper {
+    display: flex;
+    flex-direction: column;
+    margin:100px;
+    width: 500px;
+    max-width: 100%;
+    min-width: 100px;
+    min-height: 400px;
+    padding: 20px 40px;
+    border-radius: 6px;
+    box-shadow: -1px 1px 20px 0px rgba(0,0,0,0.75);
+    background-color: #fefefe;
+  }
+  
+  .FormWrapper > h2 {
+    display: flex;
+    justify-content: center;
+    font-family: "Rubik";
+    font-size: 2em;
+    margin-top: 0.25em;
+    margin-bottom: 20px ;
+    color: #10AC84;
+    font-weight: 400;
+  }
+  
+  .FormWrapper h2:hover {
+    color: #F29B20;
+  }
+  
+  .FormWrapper form {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .info {
+    padding-bottom: 1em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+  }
+  
+  .info small {
+    color : red;
+  }
+  
+  .FormWrapper label {
+    margin-bottom: 0.5em;
+    color: #444;
+  }
+  
+  .FormWrapper .LabelBad{
+    color : #db2269;
+  }
+  
+  .FormWrapper input {
+    padding: 10px 10px;
+    border-radius: 8px;
+    outline: none;
+    border: 1px solid #d6d1d5;
+    font-family: 'Rubik';
+  }
+  
+  .FormWrapper input:hover,
+  .FormWrapper textarea:hover {
+    border: 1px solid #F29B20;
+  }
+  
+  .FormWrapper textarea {
+    height: 200px;
+    padding: 10px 10px;
+    border-radius: 8px;
+    outline: none;
+    border: 1px solid #d6d1d5;
+    font-family: 'Rubik';
+  }
+  
+  .FormWrapper textarea::placeholder {
+    font-family: 'Rubik';
+    font-size: 1.2em;
+    color: #bbb;
+  }
+  
+  .FormWrapper input::placeholder {
+    font-size: 1.2em;
+    color: #bbb;
+    font-family: 'Rubik';
+  }
+  
+  .InputLengthDefault {
+    border: 1px solid #d6d1d5;
+  }
+  
+  .InputLengthOk {
+    border : 1px solid #10AC84;
+  }
+  
+  .FormWrapper .InputLengthBad,
+  .FormWrapper .TextareaLengthBad {
+    border : 1px solid #db2269;
+  }
+  
+  .FormWrapper button {
+    min-width: 100%;
+    cursor: pointer;
+    margin-right: 0.25em;
+    margin-top: 0.5em;
+    padding: 	0.938em;
+    border: none;
+    border-radius: 30px;
+    background-color: #10AC84;
+    color: #fefefe;
+    font-size: 20px;
+    font-family: 'Rubik';
+  }
+  .FormWrapper button:hover {
+    background-color: #F29B20;
+    color: #fefefe;
+  }
+  
+  .error {
+    color:#db2269;
+    font-size: 0.8em;
+    display: relative;
+    padding: 5px;
+  }
+  
+  .name,
+  .email,
+  .phone,
+  .subject {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
+  
+  .name {
+    width: 100%;
+  }
+  
+  .email,
+  .phone,
+  .subject  {
+    width: 100%;
+  }
+  
+  .message {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .submit {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
